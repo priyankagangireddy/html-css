@@ -1,0 +1,50 @@
+.jumbotron {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: lightblue;
+}
+#grad1 {
+    height: 200px;
+    background: -webkit-linear-gradient(left, rgba(255,0,0,0), rgba(255,0,0,1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgba(255,0,0,0), rgba(255,0,0,1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgba(255,0,0,0), rgba(255,0,0,1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); /* Standard syntax (must be last) */
+}
+
+
+.row.content {height: 1000px}
+
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height:auto;}
+}
+
+.col-sm-4{
+    width: 230px;
+}
+
+.middleimage{
+
+ /*   padding-left: 45px;
+    margin-bottom: 50px;
+    margin-top: 100px; */
+
+}
+
+.c{
+    margin-bottom: 50px;
+}
